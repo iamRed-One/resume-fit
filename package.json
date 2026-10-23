@@ -4,6 +4,14 @@
   "private": true,
   "description": "Free, open-source resume fitter: scores your resume against a job posting, shows what is missing, and helps you tailor it without making anything up. Bring your own AI. Files never leave your browser.",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamRed-One/resume-fit.git"
+  },
+  "homepage": "https://github.com/iamRed-One/resume-fit#readme",
+  "bugs": {
+    "url": "https://github.com/iamRed-One/resume-fit/issues"
+  },
   "author": "Ambali Ridwan",
   "keywords": ["resume", "cv", "job-search", "ats", "resume-tailoring", "job-posting", "nextjs", "typescript", "privacy-first", "open-source"],
   "engines": {
