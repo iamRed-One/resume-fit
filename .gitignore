@@ -1,0 +1,13 @@
+node_modules
+.next
+.env
+.env.local
+*.tsbuildinfo
+next-env.d.ts
+# evaluation data: employers' posting text (regenerate with evals/fetch-postings.mjs) and run output
+evals/data/postings
+evals/data/blind
+evals/out
+e2e/out
+# private working notes, not part of the public repository
+docs/private

@@ -1,0 +1,47 @@
+{
+  "name": "resume-fit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Free, open-source resume fitter: scores your resume against a job posting, shows what is missing, and helps you tailor it without making anything up. Bring your own AI. Files never leave your browser.",
+  "license": "MIT",
+  "author": "Ambali Ridwan",
+  "keywords": ["resume", "cv", "job-search", "ats", "resume-tailoring", "job-posting", "nextjs", "typescript", "privacy-first", "open-source"],
+  "engines": {
+    "node": ">=20.9"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "eval:extract": "vitest run --config vitest.eval.config.mts evals/extraction.eval.ts",
+    "eval:live": "vitest run --config vitest.eval.config.mts evals/live.eval.ts",
+    "e2e:upload": "node e2e/upload.mjs",
+    "e2e:open-in": "node e2e/open-in.mjs",
+    "e2e:layout": "node e2e/layout.mjs",
+    "e2e:a11y": "node e2e/a11y.mjs",
+    "e2e:contrast": "node e2e/contrast.mjs",
+    "e2e:auto": "node e2e/auto-mock.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.2.0",
+    "@fontsource-variable/fraunces": "^5.3.0",
+    "@fontsource-variable/hanken-grotesk": "^5.3.0",
+    "mammoth": "^1.13.0",
+    "next": "^16.4.3",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "unpdf": "^1.9.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "jszip": "^3.10.2",
+    "playwright-core": "^1.64.1",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.5"
+  }
+}
