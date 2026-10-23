@@ -1,0 +1,38 @@
+{
+  "swe-security-1": {
+    "must": [["penetration testing"], ["bug bounty"], ["code audits"], ["security assessments", "technical security assessments"], ["design reviews"], ["vulnerabilities", "vulnerability"], ["cloud security"], ["ai security"], ["product security"], ["platform security"]],
+    "ok": [["offensive security"], ["anti-abuse"], ["detect and respond", "detection"], ["secure development"], ["tooling"], ["incident"], ["data pipelines"]]
+  },
+  "swe-security-2": {
+    "must": [["application security"], ["penetration testing"], ["offensive security"], ["llm", "llms", "frontier models"], ["red teaming"], ["prompt injection"], ["jailbreak"], ["owasp"], ["sans top 25"], ["vulnerability", "vulnerabilities"], ["bug bounty"], ["python"], ["go"]],
+    "ok": [["security scanners"], ["tool abuse"], ["remediation"], ["triage"], ["automation"], ["mentor"]]
+  },
+  "swe-staff-1": {
+    "must": [["workato"], ["workday"], ["greenhouse"], ["slack"], ["ruby"], ["ci/cd"], ["llm", "llms"], ["mcp", "model context protocol"], ["google cloud platform", "gcp"], ["api", "apis"], ["automation"], ["integrations"]],
+    "ok": [["claude"], ["code reviews"], ["slack apps", "bots"], ["workday web services"], ["documentation"], ["scalability"]]
+  },
+  "swe-staff-2": {
+    "must": [["java"], ["spring"], ["kafka"], ["debezium"], ["change data capture", "cdc"], ["postgres"], ["mysql"], ["sql"], ["relational data modeling", "data modeling"], ["javascript"], ["react"], ["data structures"], ["algorithms"], ["jvm"], ["code reviews"], ["mentor"]],
+    "ok": [["streaming data platforms"], ["database design"], ["architecture"], ["roadmap"], ["data migration"]]
+  },
+  "swe-eng-manager-1": {
+    "must": [["c++"], ["rust"], ["distributed systems"], ["hiring", "hire"], ["mentorship", "mentor"], ["apis"], ["reliability"], ["rollback", "release"], ["monitoring"]],
+    "ok": [["performance"], ["security"], ["prioritisation", "prioritization"], ["roadmap"], ["onboarding"], ["infrastructure"], ["developer velocity"], ["leading a team"]]
+  },
+  "swe-eng-manager-2": {
+    "must": [["hiring", "recruitment"], ["stakeholder management"], ["prioritization"], ["rca"], ["roadmap"], ["backend frameworks"], ["reliability"], ["distributed team"]],
+    "ok": [["architects"], ["qa"], ["security"], ["operations"], ["shared services"], ["technical guidance"], ["best practices"], ["cross-team"], ["scale"]]
+  },
+  "product-manager-1": {
+    "must": [["roadmap"], ["product vision"], ["ai/ml"], ["compliance"], ["automation"], ["cross-functional"], ["agentic ai"], ["product management"], ["cost optimization"]],
+    "ok": [["sanctions screening"], ["transaction monitoring"], ["regulatory"], ["stakeholders"], ["data science"], ["engineering"]]
+  },
+  "product-manager-2": {
+    "must": [["product management"], ["roadmap"], ["product vision"], ["user stories"], ["saas"], ["gtm"], ["product launches", "launch"], ["requirements"], ["data-driven"], ["ux"], ["analytical"]],
+    "ok": [["iaas"], ["paas"], ["quantitative"], ["qualitative"], ["stakeholders"], ["sales"], ["marketing"], ["revenue"]]
+  },
+  "product-designer-2": {
+    "must": [["a/b testing"], ["portfolio"], ["mobile"], ["experimentation"], ["visual"], ["consumer mobile applications", "consumer mobile"], ["ai tools"]],
+    "ok": [["product managers"], ["engineers"], ["executive leadership"], ["navigation"], ["app shell"], ["rapid concept generation"], ["iterating"]]
+  }
+}

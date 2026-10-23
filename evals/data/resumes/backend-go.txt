@@ -1,0 +1,24 @@
+Marcus Okafor
+marcus.okafor@example.com | Toronto, ON
+
+Summary
+Backend engineer with six years building ad-serving and billing services in Go and Java.
+
+Skills
+Go, Java, Python, PostgreSQL, Redis, Kafka, Docker, Kubernetes, gRPC
+
+Experience
+Senior Software Engineer, Brightline Media (2021 - Present)
+- Led a team of 4 engineers rebuilding the campaign pacing service in Go, cutting p99 latency from 420 ms to 95 ms
+- Designed a Kafka-based event pipeline that processes 18 million ad impressions per day
+- Reduced PostgreSQL query times by 60% by redesigning indexes and partitioning the reporting tables
+- Mentored three junior engineers and ran weekly design reviews
+- Wrote the on-call runbook and cut incident response time from 40 to 15 minutes
+
+Software Engineer, Harbor Payments (2018 - 2021)
+- Built REST and gRPC APIs for merchant onboarding used by 900 businesses
+- Migrated a Java monolith to 6 microservices deployed on Kubernetes
+- Added integration tests that raised coverage from 48% to 82%
+
+Education
+B.Eng. Software Engineering, McMaster University, 2018

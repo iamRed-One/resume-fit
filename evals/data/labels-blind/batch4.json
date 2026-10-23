@@ -1,0 +1,30 @@
+{
+  "product-designer-1": {
+    "must": [["prototype", "prototyping"], ["react"], ["next.js"], ["ai tools"], ["typography"], ["micro-interactions"], ["sdk"], ["authorization"], ["craft"]],
+    "ok": [["codebase"], ["production code"], ["interfaces"], ["identity"], ["ai agents"], ["permissions"], ["systems thinking"]]
+  },
+  "data-analyst-1": {
+    "must": [["tableau"], ["snowflake"], ["sql"], ["salesforce"], ["dashboards"], ["business intelligence"], ["generative ai"], ["data lineage"], ["documentation"], ["data analytics"], ["claude code", "github copilot"]],
+    "ok": [["metric definitions"], ["governance"], ["pipeline"], ["bookings"], ["gtm"], ["field operations"], ["bi visualization"]]
+  },
+  "data-analyst-2": {
+    "must": [["sql"], ["thoughtspot"], ["qualtrics"], ["dashboards"], ["survey"], ["data quality"], ["metrics"], ["analytics"], ["stakeholders"]],
+    "ok": [["liveboards"], ["people analytics"], ["hrbps"], ["insights"], ["ai capabilities"], ["ad-hoc"], ["storytelling"]]
+  },
+  "account-executive-1": {
+    "must": [["quota"], ["iacv"], ["sales cycles"], ["multi-thread", "multi-threading"], ["enterprise"], ["new customer acquisition", "new business"], ["territory"], ["consultative"], ["contracts"], ["cross-functional"]],
+    "ok": [["specialist"], ["value engineering"], ["pricing"], ["gtm"], ["c-suite"], ["verticals"], ["unified communications"]]
+  },
+  "account-executive-2": {
+    "must": [["account planning"], ["pipeline", "sales pipelines"], ["revenue"], ["c-suite", "c suite"], ["cross-sell"], ["media"], ["closing"], ["business development"], ["partnerships"], ["advertising"]],
+    "ok": [["media agencies"], ["book of business"], ["quarterly revenue goals"], ["client education"], ["presentation"], ["revenue targets"], ["escalation"]]
+  },
+  "customer-support-1": {
+    "must": [["linux"], ["elastic stack"], ["saas"], ["distributed systems"], ["databases"], ["escalation"], ["customer"], ["search"]],
+    "ok": [["unix"], ["technical understanding"], ["communication"], ["developer teams"], ["search software"]]
+  },
+  "customer-support-2": {
+    "must": [["root cause"], ["logs"], ["telemetry"], ["escalation", "l3"], ["mobile"], ["investigations"], ["incident"], ["post-incident", "post incident"], ["stakeholder communication", "customer communication"]],
+    "ok": [["engineering teams"], ["csms", "csm"], ["sales"], ["reproducible cases"], ["business impact"], ["routing"], ["dispatch"], ["compliance"]]
+  }
+}

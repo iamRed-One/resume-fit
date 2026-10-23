@@ -1,0 +1,23 @@
+Aisha Rahman
+aisha.rahman@example.com | Waterloo, ON
+
+Summary
+Machine learning engineer with four years taking models from research to production.
+
+Skills
+Python, PyTorch, scikit-learn, XGBoost, SQL, Pandas, Spark, Airflow, AWS, Docker
+
+Experience
+Machine Learning Engineer, Northgate Insurance (2022 - Present)
+- Built a claims fraud model in XGBoost that flagged 31% more fraudulent claims at the same false-positive rate
+- Deployed models on AWS with Docker and monitored drift using Airflow-scheduled checks
+- Designed the feature pipeline in Spark processing 40 million records a night
+- Ran A/B tests to validate model changes and reported results to non-technical stakeholders
+- On-call for the model-serving platform
+
+Data Scientist, Bluepeak Retail (2020 - 2022)
+- Built demand forecasting models in scikit-learn, improving forecast accuracy by 12%
+- Wrote SQL and Pandas analyses for weekly planning meetings
+
+Education
+M.Sc. Statistics, University of Waterloo, 2020

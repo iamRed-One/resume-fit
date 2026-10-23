@@ -1,0 +1,18 @@
+{
+  "recruiter-1": {
+    "must": [["full-cycle recruiting", "full-cycle"], ["sourcing"], ["greenhouse"], ["gem"], ["applicant tracking system"], ["passive candidates"], ["hiring managers"], ["pipeline", "candidate pipelines"], ["outreach"], ["technical roles"]],
+    "ok": [["ai tools"], ["candidate engagement"], ["workflows"], ["offer"], ["interview"]]
+  },
+  "recruiter-2": {
+    "must": [["sourcing"], ["talent mapping"], ["market research"], ["hiring managers"], ["comp bands"], ["interview processes"], ["time to fill"], ["stakeholder", "stakeholders"], ["mentor"], ["pipeline"]],
+    "ok": [["conversion"], ["pitch"], ["reporting"], ["candidate motivation"], ["engagement"], ["requisitions"]]
+  },
+  "finance-accounting-1": {
+    "must": [["budgeting"], ["forecasting"], ["variance analysis"], ["financial modeling"], ["excel"], ["accruals"], ["monthly close", "close processes"], ["oracle"], ["rfp"], ["scenario analysis"], ["pivot tables"], ["vlookup"], ["sensitivity"]],
+    "ok": [["gsheet"], ["p&l"], ["reconcile"], ["financial reporting"], ["accounting"], ["profitability"], ["fp"]]
+  },
+  "marketing-1": {
+    "must": [["lifecycle marketing"], ["growth marketing"], ["sql"], ["experimentation"], ["email"], ["push"], ["sms"], ["creative briefs"], ["metrics"], ["behavioral science"]],
+    "ok": [["in-app"], ["channel mix"], ["prioritization"], ["stakeholders"], ["data science"], ["copywriters"], ["designers"], ["roadmaps"], ["performance reporting"]]
+  }
+}

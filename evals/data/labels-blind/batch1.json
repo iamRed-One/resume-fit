@@ -1,0 +1,42 @@
+{
+  "swe-backend-1": {
+    "must": [["kotlin"], ["java"], ["distributed systems"], ["postgres"], ["aurora"], ["relational databases"], ["query plans", "query performance"], ["indexing"], ["architecture"], ["production systems"], ["mentor"]],
+    "ok": [["jvm"], ["scalability"], ["caching"], ["design reviews"], ["technical leadership"], ["latency"], ["reliability"], ["consistency"]]
+  },
+  "swe-backend-2": {
+    "must": [["go"], ["java"], ["c++", "c/c++"], ["distributed systems"], ["algorithms"]],
+    "ok": [["compute"], ["networking"], ["data warehouse"], ["llm"], ["roadmap"], ["infrastructure"], ["developer productivity"], ["debug"]]
+  },
+  "swe-backend-3": {
+    "must": [["snowflake"], ["spark"], ["flink"], ["kafka"], ["airflow"], ["dagster"], ["distributed systems"], ["streaming"], ["data infrastructure", "data systems"], ["mentor"]],
+    "ok": [["orchestration"], ["ingestion"], ["cost optimization"], ["data reliability"], ["ai/ml"], ["business intelligence"], ["backend"], ["batch"]]
+  },
+  "swe-backend-4": {
+    "must": [["aws"], ["kubernetes"], ["terraform"], ["ci/cd"], ["kafka"], ["distributed systems"], ["slo"], ["observability"], ["incident response"], ["rag"], ["llm"], ["mcp"], ["event-driven architecture", "event-driven architectures"], ["cloud-native"], ["architecture"]],
+    "ok": [["agentic ai"], ["audit logging"], ["access management"], ["security controls"], ["reliability"], ["developer experience"]]
+  },
+  "swe-backend-5": {
+    "must": [["c++"], ["javascript"], ["go"], ["webassembly"], ["production systems"], ["observability"], ["incident response"], ["fraud"], ["on-call"], ["mentor"]],
+    "ok": [["design docs"], ["code review"], ["browser"], ["device"], ["remediation"]]
+  },
+  "swe-backend-6": {
+    "must": [["javascript"], ["react"], ["api"], ["full-stack", "full stack"], ["automated testing"], ["caching"], ["storage"], ["backend"], ["frontend"]],
+    "ok": [["a/b testing", "experiments"], ["data processing"], ["prototyping"], ["maintainable code"]]
+  },
+  "swe-frontend-1": {
+    "must": [["react"], ["design systems"], ["state management"], ["a/b testing"], ["accessibility"], ["front-end", "frontend"], ["performance"], ["animation"], ["data fetching"]],
+    "ok": [["synthetic monitoring"], ["experimentation"], ["typography"], ["mentoring"], ["interactive"]]
+  },
+  "swe-frontend-2": {
+    "must": [["react"], ["a/b testing"], ["ux"], ["browser"], ["technical leadership"], ["architecture"], ["performance"], ["frontend"]],
+    "ok": [["experimentation"], ["interaction design"], ["product design"], ["coach"], ["redesigns"]]
+  },
+  "swe-frontend-3": {
+    "must": [["design system"], ["web components"], ["frontend architecture", "frontend"], ["accessibility"], ["security"], ["performance"], ["testing"], ["observability"], ["modular"], ["technical leadership"], ["monolith"]],
+    "ok": [["versioning"], ["documentation"], ["dependency management"], ["maintainability"], ["mentor"], ["agentic workflows"], ["rollback"], ["error isolation"], ["performance budgets"]]
+  },
+  "swe-frontend-4": {
+    "must": [["javascript"], ["express"], ["reactjs", "react"], ["cross browser", "cross-browser"], ["web security"], ["cloud"], ["debugging"], ["test automation", "testing"], ["code reviews", "code review"], ["mentor"]],
+    "ok": [["componentization"], ["technical debt"], ["monitoring"], ["agile"], ["optimization"], ["scalable"]]
+  }
+}

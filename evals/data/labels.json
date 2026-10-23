@@ -1,0 +1,103 @@
+{
+  "_note": "Hand-labelled from the posting text before running the extractor. Each entry in must/ok is a list of acceptable surface forms for ONE requirement. must = what a recruiter would search a resume for. ok = relevant but secondary. Single labeller; use for comparing extractor versions, not as absolute accuracy.",
+  "swe-backend-1": {
+    "must": [["python"], ["pytorch"], ["tensorflow"], ["scikit-learn"], ["xgboost"], ["machine learning"], ["data pipelines", "data pipeline"], ["rag", "retrieval-augmented generation"], ["mlops"]],
+    "ok": [["ranking"], ["nlp"], ["ci/cd"], ["observability"], ["mentoring"], ["generative ai"], ["deployment"], ["monitoring"], ["spark mllib"], ["search"], ["evaluation"]]
+  },
+  "swe-backend-2": {
+    "must": [["rust"], ["c++"], ["typescript"], ["javascript"], ["distributed systems"], ["systems software", "systems programming"], ["data structures"], ["algorithms"], ["serverless"], ["sqlite"]],
+    "ok": [["webassembly"], ["http"], ["linux"], ["system design"], ["low-latency"], ["durable objects"], ["storage"], ["production"], ["cloud"], ["routing"]]
+  },
+  "swe-backend-3": {
+    "must": [["go"], ["python"], ["scala"], ["java"], ["spark"], ["kafka"], ["postgres"], ["bigquery"], ["redis"], ["druid"], ["kubernetes"], ["docker"], ["microservices"], ["distributed systems"], ["apis", "api"]],
+    "ok": [["thrift"], ["argo"], ["baseplate"], ["c++"], ["ads"], ["real time"], ["data intensive"]]
+  },
+  "swe-frontend-1": {
+    "must": [["frontend architecture", "frontend"], ["accessibility"], ["performance"], ["testing"], ["observability"], ["component systems", "component design"], ["browser"], ["mentor"]],
+    "ok": [["feature flags"], ["incident"], ["code review"], ["maintainability"], ["security"], ["asynchronous"], ["styling"]]
+  },
+  "swe-frontend-2": {
+    "must": [["ios"], ["android"], ["swift"], ["kotlin"], ["mobile"], ["rendering"], ["state management"], ["low-latency"]],
+    "ok": [["network efficiency"], ["performance"], ["architecture"], ["mentorship", "mentoring"], ["technical strategy"], ["trading"], ["high-availability"], ["front-end", "frontend"]]
+  },
+  "swe-fullstack-1": {
+    "must": [["typescript"], ["node.js"], ["vue 3", "vue"], ["composition api"], ["esm", "ecmascript modules"], ["monorepos"], ["sdk"], ["semantic versioning"]],
+    "ok": [["csrf"], ["bundle size"], ["on-call"], ["apis", "api"], ["isomorphic"], ["language server"], ["tests", "testing"], ["frontend"], ["backend"]]
+  },
+  "swe-fullstack-2": {
+    "must": [["java"], ["kotlin"], ["nodejs", "node.js"], ["react"], ["angular"], ["tailwind"], ["bootstrap"], ["aws"], ["docker"], ["git"], ["api design"], ["integration testing", "unit"]],
+    "ok": [["css"], ["agile"], ["postgres"], ["testable code"], ["figma"], ["ux"], ["frontend"], ["backend"]]
+  },
+  "swe-mobile-1": {
+    "must": [["android"], ["kotlin"], ["jetpack compose"], ["coroutines"], ["observability"], ["architecture"], ["performance"]],
+    "ok": [["profiling"], ["instrumentation"], ["mentoring"], ["technical leadership"], ["testing"], ["reliability"], ["monitoring"]]
+  },
+  "swe-mobile-2": {
+    "must": [["ios"], ["swift"], ["avfoundation"], ["core media"], ["core video"], ["hls", "http live streaming"], ["mpeg-dash"], ["mp4"], ["rxswift"], ["combine"], ["video"]],
+    "ok": [["streaming"], ["cdn"], ["modular"], ["reactive frameworks"], ["playback"]]
+  },
+  "swe-infra-sre-1": {
+    "must": [["python"], ["go"], ["storm"], ["ci/cd"], ["threat intelligence"], ["data pipelines", "data pipeline"], ["detections"]],
+    "ok": [["synapse", "vertex synapse"], ["indicators"], ["root-cause"], ["security operations"], ["blocklists"], ["enrichments"], ["data warehouses"], ["production"]]
+  },
+  "swe-infra-sre-2": {
+    "must": [["kubernetes"], ["gitops"], ["ci/cd"], ["jenkins"], ["argo cd"], ["github actions"], ["terraform"], ["cloudformation"], ["linux"], ["aws"], ["slos", "slo"], ["distributed systems"], ["istio"]],
+    "ok": [["google cloud"], ["azure"], ["alibaba cloud"], ["mtls"], ["service mesh"], ["runbooks"], ["on-call"], ["multi-region", "multi-cluster"], ["networking"], ["incident response"], ["self-service"]]
+  },
+  "swe-data-ml-1": {
+    "must": [["python"], ["sql"], ["pandas"], ["scikit-learn"], ["xgboost"], ["keras"], ["tensorflow"], ["machine learning"], ["deep learning"], ["optimization"], ["operations research"]],
+    "ok": [["marketplace"], ["large datasets"], ["analytical"], ["data manipulation"]]
+  },
+  "swe-data-ml-2": {
+    "must": [["machine learning"], ["statistics"], ["model evaluation"], ["experiment design"], ["fraud"]],
+    "ok": [["deployment", "deploy"], ["monitoring"], ["incident response"], ["features"], ["datasets"], ["mentor"], ["abuse"], ["latency"], ["production"]]
+  },
+  "swe-security-1": {
+    "must": [["go"], ["python"], ["javascript", "typescript", "js/ts"], ["application security", "product security"], ["ci/cd"], ["vulnerability"], ["bug bounty"], ["authentication", "authorization"], ["cloud-native"], ["llm"], ["guardrails"]],
+    "ok": [["code review"], ["mentoring"], ["security reviews"], ["agentic workflows"], ["remediation"], ["secure frameworks"]]
+  },
+  "swe-staff-1": {
+    "must": [["typescript"], ["rest"], ["graphql"], ["postgresql"], ["dynamodb"], ["api design"], ["full-stack", "fullstack"], ["backend"]],
+    "ok": [["mentoring"], ["agile"], ["relational databases"], ["code review"], ["system design"]]
+  },
+  "swe-staff-2": {
+    "must": [["payments"], ["architecture"], ["technical strategy"], ["production systems"], ["mentor", "mentorship"]],
+    "ok": [["design reviews"], ["code reviews"], ["scalable"], ["cross-functional"], ["technical vision"]]
+  },
+  "swe-eng-manager-1": {
+    "must": [["ios", "android"], ["graphql"], ["microservices"], ["mentoring"], ["hire", "hiring"], ["coach"], ["delivery"], ["monitoring"]],
+    "ok": [["pm"], ["ux"], ["backlog"], ["ai tools"], ["cross-team"], ["production"]]
+  },
+  "product-manager-1": {
+    "must": [["sql"], ["roadmap"], ["consumer products"], ["metrics"], ["prioritization"]],
+    "ok": [["engineering"], ["design"], ["data"], ["written communication"], ["cross-functional"]]
+  },
+  "product-designer-1": {
+    "must": [["research"], ["prototype", "prototyping"], ["portfolio"], ["ai-assisted workflows"], ["design strategy"], ["qualitative"], ["quantitative"]],
+    "ok": [["production code"], ["apm"], ["technical products"], ["mentor"]]
+  },
+  "data-analyst-1": {
+    "must": [["data models", "dimensional data models"], ["kpis", "kpi"], ["semantic layer"], ["metric"], ["data contracts"], ["databricks"], ["genie"], ["dashboards"], ["data quality"], ["gold layer", "silver"], ["slas"], ["oncall", "on-call"]],
+    "ok": [["elt"], ["metric dictionary"], ["stakeholders"], ["governed data"]]
+  },
+  "account-executive-1": {
+    "must": [["saas"], ["pipeline"], ["sales cycles"], ["value selling"], ["discovery"], ["executives"], ["account plans"], ["mid-market"]],
+    "ok": [["new business"], ["multi-threading"], ["book of business"], ["sales targets"], ["enterprise"]]
+  },
+  "customer-support-1": {
+    "must": [["jamf"], ["intune"], ["abm", "apple business manager"], ["zendesk"], ["asana"], ["troubleshooting", "troubleshoot"], ["hardware"], ["windows"], ["chromeos", "chromebooks"], ["apple"], ["vpn"], ["wifi"], ["ticketing"]],
+    "ok": [["av"], ["networking"], ["video conferencing"], ["inventory"], ["onboarding"]]
+  },
+  "recruiter-1": {
+    "must": [["full-cycle"], ["sourcing"], ["intake"], ["structured interviews"], ["pipeline management"], ["offer negotiations"], ["quota attainment"], ["compensation"], ["ote"]],
+    "ok": [["account executives"], ["candidate experience"], ["talent-market research"], ["funnel metrics"], ["diversity"], ["sales"]]
+  },
+  "finance-accounting-1": {
+    "must": [["gaap"], ["ifrs"], ["sox"], ["month end close", "month-end close"], ["accruals"], ["excel"], ["audit"], ["accounting"]],
+    "ok": [["colocation"], ["contracts"], ["tax"], ["internal controls"], ["fp"]]
+  },
+  "marketing-1": {
+    "must": [["positioning"], ["messaging"], ["go-to-market", "gtm"], ["sales enablement"], ["product marketing"], ["battlecards"], ["launches"], ["derivatives"], ["institutional trading"]],
+    "ok": [["futures"], ["options"], ["cross-margin"], ["talk tracks"], ["faqs"], ["liquidity"], ["risk"], ["margining"]]
+  }
+}

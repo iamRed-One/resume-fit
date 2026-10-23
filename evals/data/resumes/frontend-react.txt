@@ -1,0 +1,23 @@
+Priya Raman
+priya.raman@example.com | Vancouver, BC
+
+Summary
+Frontend engineer focused on accessible, high-performance web applications in React and TypeScript.
+
+Skills
+JavaScript, TypeScript, React, Next.js, Redux, CSS, Tailwind, Jest, Cypress, Storybook, GraphQL, Node.js
+
+Experience
+Senior Frontend Engineer, Cobalt Analytics (2020 - Present)
+- Built the shared component library used by 7 product teams, in React and Storybook
+- Improved Largest Contentful Paint from 4.1 s to 1.8 s by code splitting and image optimization
+- Led an accessibility audit and fixed 120 WCAG issues, bringing the app to AA compliance
+- Introduced Cypress end-to-end tests covering 35 critical user flows
+- Mentored two engineers and reviewed about 15 pull requests a week
+
+Frontend Developer, Lumen Retail (2017 - 2020)
+- Built the checkout flow in React and Redux, which lifted conversion by 9%
+- Set up A/B testing with Optimizely and ran 14 experiments
+
+Education
+B.Sc. Computer Science, University of British Columbia, 2017

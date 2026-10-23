@@ -1,0 +1,23 @@
+Daniel Ferreira
+daniel.ferreira@example.com | Montreal, QC
+
+Summary
+Android engineer with five years shipping consumer apps in Kotlin.
+
+Skills
+Kotlin, Java, Jetpack Compose, Coroutines, Flow, Retrofit, Room, Hilt, MVVM, Firebase, Gradle
+
+Experience
+Android Engineer, Pocketwise (2021 - Present)
+- Rebuilt the onboarding and payments screens in Jetpack Compose, reducing drop-off by 14%
+- Moved networking to Retrofit with Coroutines and Flow, removing 3,000 lines of callback code
+- Cut cold start time from 2.9 s to 1.6 s using baseline profiles
+- Owned crash-free rate, raising it from 98.6% to 99.7%
+- Wrote the team's Android SDK integration guide
+
+Junior Android Developer, Trailmap (2019 - 2021)
+- Built offline map caching with Room for an app with 400,000 monthly users
+- Added unit tests with JUnit and Mockito
+
+Education
+B.Sc. Computer Science, Concordia University, 2019

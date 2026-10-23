@@ -1,0 +1,23 @@
+Tomasz Kowalski
+tomasz.kowalski@example.com | Calgary, AB
+
+Summary
+Site reliability engineer with seven years running Kubernetes platforms on AWS.
+
+Skills
+Kubernetes, Terraform, AWS, Python, Go, Linux, Prometheus, Grafana, Jenkins, Argo CD, Helm
+
+Experience
+Senior Site Reliability Engineer, Stratus Cloud (2020 - Present)
+- Operate 12 Kubernetes clusters serving 300 microservices, with 99.95% availability
+- Wrote the Terraform modules used by all product teams to provision AWS infrastructure
+- Built the GitOps deployment pipeline with Argo CD, reducing deploy time from 35 to 8 minutes
+- Defined SLOs and alerting in Prometheus and Grafana, cutting alert noise by 55%
+- Led incident response and wrote 20 postmortems; carried the on-call rotation
+
+Systems Engineer, Prairie Telecom (2016 - 2020)
+- Automated Linux server provisioning with Ansible and Python
+- Ran capacity planning for 400 servers
+
+Education
+B.Sc. Computer Engineering, University of Calgary, 2016

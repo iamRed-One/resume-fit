@@ -1,0 +1,18 @@
+{
+  "_note": "Fictional resumes paired with real public postings. expect = how well the resume fits: good, partial, or poor. A poor pair is a negative control: the tool should NOT invent experience to close the gap.",
+  "pairs": [
+    { "resume": "backend-go", "posting": "postings/swe-backend-3.txt", "expect": "good" },
+    { "resume": "backend-go", "posting": "postings/swe-infra-sre-2.txt", "expect": "partial" },
+    { "resume": "backend-go", "posting": "postings/product-manager-1.txt", "expect": "poor" },
+    { "resume": "frontend-react", "posting": "postings/swe-frontend-1.txt", "expect": "good" },
+    { "resume": "frontend-react", "posting": "postings/swe-fullstack-2.txt", "expect": "partial" },
+    { "resume": "android-kotlin", "posting": "postings/swe-mobile-1.txt", "expect": "good" },
+    { "resume": "android-kotlin", "posting": "postings/swe-mobile-2.txt", "expect": "poor" },
+    { "resume": "ml-python", "posting": "postings/swe-data-ml-1.txt", "expect": "good" },
+    { "resume": "ml-python", "posting": "postings/swe-data-ml-2.txt", "expect": "partial" },
+    { "resume": "sre-platform", "posting": "postings/swe-infra-sre-2.txt", "expect": "good" },
+    { "resume": "sre-platform", "posting": "postings/swe-security-1.txt", "expect": "partial" },
+    { "resume": "sales-ae", "posting": "postings/account-executive-1.txt", "expect": "good" },
+    { "resume": "sales-ae", "posting": "postings/recruiter-1.txt", "expect": "poor" }
+  ]
+}

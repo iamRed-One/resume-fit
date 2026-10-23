@@ -1,0 +1,62 @@
+{
+  "swe-fullstack-1": {
+    "must": [["grpc"], ["graphql"], ["docker"], ["kubernetes"], ["aws"], ["mentor"], ["debug"]],
+    "ok": [["cloud-based services"], ["financial"], ["generalist"], ["production issues"]]
+  },
+  "swe-fullstack-2": {
+    "must": [["react"], ["typescript"], ["ruby"], ["python"], ["go"], ["c++"], ["postgresql"], ["webassembly"], ["full-stack", "full stack"], ["github copilot", "ai-assisted development tools"]],
+    "ok": [["mentor"], ["code reviews"], ["reliability"], ["scalable"], ["front-end", "frontend"], ["back-end", "backend"], ["cross-functional"]]
+  },
+  "swe-fullstack-3": {
+    "must": [["go"], ["api design"], ["distributed systems"], ["data modeling"], ["testing"], ["debugging"], ["llm"], ["agentic systems", "agentic"], ["tool calling"], ["orchestration"], ["prompt engineering"], ["evals"]],
+    "ok": [["backend"], ["observability"], ["reliability"], ["latency"], ["frontend"]]
+  },
+  "swe-fullstack-4": {
+    "must": [["javascript"], ["express"], ["reactjs", "react"], ["rest apis", "rest"], ["cloud"], ["code reviews"], ["test automation", "testing"], ["postgresql"], ["typescript"], ["docker"], ["kubernetes"], ["mentor"]],
+    "ok": [["agile"], ["technical debt"], ["monitoring"], ["unit tests"]]
+  },
+  "swe-mobile-1": {
+    "must": [["android"], ["kotlin"], ["sdks", "sdk"], ["payments"]],
+    "ok": [["hardware"], ["backend"], ["user research"], ["product design"], ["terminal"]]
+  },
+  "swe-mobile-2": {
+    "must": [["android"], ["kotlin"], ["java"], ["mobile"], ["sdks", "sdk"], ["observability"], ["monitoring"], ["incident response"], ["fraud"], ["mentor"]],
+    "ok": [["design docs"], ["code review"], ["device"], ["roadmap"], ["technical leadership"]]
+  },
+  "swe-mobile-3": {
+    "must": [["kotlin"], ["android"], ["jetpack compose", "jetpack"], ["coroutines"], ["rxjava"], ["retrofit"], ["mvvm"], ["java"]],
+    "ok": [["android sdk"], ["maintainable code", "clean code"], ["product sense"]]
+  },
+  "swe-infra-sre-1": {
+    "must": [["python"], ["ci/cd"], ["data pipelines", "data pipeline"], ["data quality"], ["monitoring"], ["incident response"], ["distributed systems"], ["data warehouses", "cloud data warehouses"], ["infrastructure as code"], ["orchestration"], ["data platform"]],
+    "ok": [["self-service"], ["lineage"], ["developer infrastructure"], ["testing"], ["deployment"], ["ml"]]
+  },
+  "swe-infra-sre-2": {
+    "must": [["ruby on rails", "rails"], ["prometheus"], ["grafana"], ["opentelemetry"], ["observability"], ["slos", "service level objectives"], ["runbooks"], ["incident response"], ["clickhouse"], ["monitoring"], ["alerting"], ["anomaly detection"]],
+    "ok": [["metrics"], ["logs"], ["traces"], ["reconciliation"], ["data integrity"], ["change data capture"], ["event-streaming"], ["billing"], ["merge requests"]]
+  },
+  "swe-infra-sre-3": {
+    "must": [["linux"], ["kubernetes"], ["terraform"], ["cloudformation"], ["ansible"], ["aws"], ["gcp"], ["azure"], ["go", "golang"], ["python"], ["c++"], ["rust"], ["distributed systems"], ["ebpf"], ["rbac"], ["vulnerability management"], ["infrastructure as code", "infrastructure-as-code"], ["threat modeling"]],
+    "ok": [["apparmor"], ["selinux"], ["seccomp"], ["cilium"], ["falco"], ["tetragon"], ["gatekeeper"], ["network policies"], ["multi-cloud"], ["containerized workloads"], ["monitoring"], ["alerting"], ["workload identity"], ["cspm"]]
+  },
+  "swe-infra-sre-4": {
+    "must": [["terraform"], ["python"], ["go"], ["linux"], ["infrastructure as code"], ["on-call"], ["rcas", "postmortems"], ["runbooks"], ["containerized workloads", "containers"], ["sre", "site reliability"], ["observability"], ["mentor"], ["slo"], ["sla"]],
+    "ok": [["incident"], ["elastic cloud"], ["platform engineering"], ["security"], ["monitoring"], ["logs"], ["metrics"], ["traces"]]
+  },
+  "swe-data-ml-1": {
+    "must": [["machine learning"], ["statistics", "statistical techniques"], ["algorithms"], ["on-call"]],
+    "ok": [["models"], ["deploy"], ["monitor"], ["research"], ["scalable"], ["datasets"], ["high-scale systems"], ["python"]]
+  },
+  "swe-data-ml-2": {
+    "must": [["python"], ["machine learning", "traditional ml"], ["generative ai"], ["multi-agent systems", "ai agents"], ["chatbots"], ["feature stores"], ["training pipelines"], ["model monitoring"], ["vector databases"], ["serverless"], ["backend"]],
+    "ok": [["classification"], ["regression"], ["forecasting"], ["orchestration"], ["full-stack"], ["security reviews"], ["ai infrastructure"], ["technical leadership"], ["roadmap"], ["embedding pipelines"]]
+  },
+  "swe-data-ml-3": {
+    "must": [["snowflake"], ["dbt"], ["airflow"], ["terraform"], ["sql"], ["python"], ["aws"], ["data pipelines", "data pipeline"], ["data warehouse"], ["modern data stack"]],
+    "ok": [["data ingestion"], ["data systems"], ["troubleshooting"], ["high availability"], ["cloud"], ["support rotation"], ["data sources"]]
+  },
+  "swe-data-ml-4": {
+    "must": [["python"], ["distributed systems"], ["agentic systems", "agents"], ["orchestration"], ["evals", "evaluation"], ["guardrails"], ["tool integrations", "tool use"], ["machine learning"], ["sdks"], ["red-teaming"]],
+    "ok": [["context management"], ["memory management"], ["permission models"], ["approval gates"], ["sandboxing"], ["code reviews"], ["architecture"], ["mentorship"], ["frontier models"], ["least-privilege"]]
+  }
+}
